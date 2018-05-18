@@ -1,0 +1,1109 @@
+{
+	"GameDataObjects": [{
+    "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus",
+		"ID": "2e523de0-b85c-42e2-acd3-644364d2efe9",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 1,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus01.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Exceptional",
+		"ID": "d4ab58cf-28a4-4162-b451-9f04600814ad",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 424,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_exceptional_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_exceptional_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus03.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"b420d957-6932-4b02-8e02-1393b07f390d"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Fine",
+		"ID": "2f36bb45-e71d-4cfc-ba54-c6a3e0b58e1d",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 425,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_fine_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_fine_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus02.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"7d7b81f7-7322-441f-a366-5d15d30379f5"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Legendary",
+		"ID": "fd8665d1-4157-4f92-833b-957fe9947aa8",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 2881,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_exceptional_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_exceptional_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus03.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"8b93c088-542b-46a8-a5a3-df0e74854157"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Superb",
+		"ID": "19259843-3b20-4851-90ec-6304afa209a6",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 2880,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_exceptional_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_exceptional_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus03.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"4aa940c7-6a95-4be7-ad33-651afb6d5dde"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Common_Sea_Encounter",
+		"ID": "7241f508-edba-4c95-9ab8-bafb8af8157a",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 1,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus01.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",	
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"9691785d-0207-492a-9c88-47f9a86db8af"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Exceptional_Sea_Encounter",
+		"ID": "eb1c6ff9-ec1d-46c6-a821-f9cdd07c8918",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 1,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_exceptional_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_exceptional_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus03.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"9691785d-0207-492a-9c88-47f9a86db8af"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Fine_Sea_Encounter",
+		"ID": "db15aee2-1ac7-4456-b262-875d1478cdb0",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 1,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_fine_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_fine_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus02.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"9691785d-0207-492a-9c88-47f9a86db8af"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Soulbound_Blightheart",
+		"ID": "82b2461a-9d8c-4791-8759-a0197ded914c",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 2653,
+			"DescriptionText": 5200,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "true",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_blightheart_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_blightheart_l.png",
+			"PencilSketchTexture": "gui/itemsketches/sketch_blightheart.png",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus07.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"b420d957-6932-4b02-8e02-1393b07f390d",
+			"6207ed21-7f53-4d1c-947d-8a4c52ea614c",
+			"b6868376-4e93-456e-9402-9887c55ac052"],
+			"OnEquipVisualEffects": [{
+				"VisualEffect": "",
+				"AttachPoint": "EmissionMesh",
+				"EmissiveColor": {
+					"A": 1,
+					"R": 1,
+					"G": 1,
+					"B": 1
+				},
+				"EmissiveGlowScale": 1
+			}],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"$type": "Game.GameData.SoulbindComponent, Assembly-CSharp",
+			"ProhibitUnbind": "false",
+			"BindableClassesIDs": ["b4a0f1d1-b8f7-47e7-b899-99e478004a37",
+			"1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"acfd1303-4699-4939-91eb-6ac46d4af0bd"],
+			"UnlockStages": [{
+				"Note": "1st Chanter Unlock",
+				"LoreToAdd": 5201,
+				"ItemModsToAddIDs": ["a5d4b2cb-4d28-4f70-ab1e-51333cf53d1c",
+				"eee60f64-ca72-4493-8060-fd8e745224df"],
+				"ItemModsToRemoveIDs": ["b6868376-4e93-456e-9402-9887c55ac052"],
+				"EligibleClassesIDs": ["b4a0f1d1-b8f7-47e7-b899-99e478004a37"],
+				"UnlockActions": [{
+					"TargetValue": 30,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5137,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			},
+			{
+				"Note": "1st Ranger Unlock",
+				"LoreToAdd": 5201,
+				"ItemModsToAddIDs": ["a5d4b2cb-4d28-4f70-ab1e-51333cf53d1c",
+				"e2a8d7ff-24e6-4fa8-9117-2651b487d966"],
+				"ItemModsToRemoveIDs": ["b6868376-4e93-456e-9402-9887c55ac052"],
+				"EligibleClassesIDs": ["1718929c-1faf-4292-b82c-7e2a7c20b3ab"],
+				"UnlockActions": [{
+					"TargetValue": 30,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5137,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			},
+			{
+				"Note": "1st Wizard Unlock",
+				"LoreToAdd": 5201,
+				"ItemModsToAddIDs": ["a5d4b2cb-4d28-4f70-ab1e-51333cf53d1c",
+				"00071a35-26e1-4646-be15-b3dfd34fa028"],
+				"ItemModsToRemoveIDs": ["b6868376-4e93-456e-9402-9887c55ac052"],
+				"EligibleClassesIDs": ["acfd1303-4699-4939-91eb-6ac46d4af0bd"],
+				"UnlockActions": [{
+					"TargetValue": 30,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5137,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			},
+			{
+				"Note": "2nd Chanter Unlock",
+				"LoreToAdd": 5202,
+				"ItemModsToAddIDs": ["771ab45b-6f5e-4900-9633-1e8b6b30e4b0",
+				"05736465-5463-4dad-85b1-c98cb31b28be"],
+				"ItemModsToRemoveIDs": ["eee60f64-ca72-4493-8060-fd8e745224df"],
+				"EligibleClassesIDs": ["b4a0f1d1-b8f7-47e7-b899-99e478004a37"],
+				"UnlockActions": [{
+					"TargetValue": 20,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5138,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			},
+			{
+				"Note": "2nd Ranger Unlock",
+				"LoreToAdd": 5202,
+				"ItemModsToAddIDs": ["2e2499fa-d524-4746-91c4-795d853bef49",
+				"05736465-5463-4dad-85b1-c98cb31b28be"],
+				"ItemModsToRemoveIDs": ["e2a8d7ff-24e6-4fa8-9117-2651b487d966"],
+				"EligibleClassesIDs": ["1718929c-1faf-4292-b82c-7e2a7c20b3ab"],
+				"UnlockActions": [{
+					"TargetValue": 20,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5146,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			},
+			{
+				"Note": "2nd Wizard Unlock",
+				"LoreToAdd": 5202,
+				"ItemModsToAddIDs": ["ad9e7216-ccc9-4dda-9b46-d8239515f694",
+				"05736465-5463-4dad-85b1-c98cb31b28be"],
+				"ItemModsToRemoveIDs": ["00071a35-26e1-4646-be15-b3dfd34fa028"],
+				"EligibleClassesIDs": ["acfd1303-4699-4939-91eb-6ac46d4af0bd"],
+				"UnlockActions": [{
+					"TargetValue": 500,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5145,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			},
+			{
+				"Note": "3rd Unlock",
+				"LoreToAdd": 5203,
+				"ItemModsToAddIDs": ["dfc7f43a-9b69-4802-b3b5-11ecbe9b8fdf",
+				"4aa940c7-6a95-4be7-ad33-651afb6d5dde"],
+				"ItemModsToRemoveIDs": ["05736465-5463-4dad-85b1-c98cb31b28be",
+				"b420d957-6932-4b02-8e02-1393b07f390d"],
+				"EligibleClassesIDs": ["b4a0f1d1-b8f7-47e7-b899-99e478004a37",
+				"1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+				"acfd1303-4699-4939-91eb-6ac46d4af0bd"],
+				"UnlockActions": [{
+					"TargetValue": 10,
+					"StatType": "Custom",
+					"OverrideRequirementString": 5139,
+					"RequireDamageType": "None",
+					"RequireHitType": "None",
+					"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+					"Prerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				}],
+				"OverrideIconTextureSmall": "",
+				"OverrideIconTextureLarge": "",
+				"OverrideItemModel": "",
+				"Scripts": []
+			}]
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_U_Dragons_Dowry",
+		"ID": "1261d34f-af56-42c4-983e-bee8f11c28b5",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 3590,
+			"DescriptionText": 3591,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "true",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_dragons_dowry_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_dragons_dowry_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus06.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"8b93c088-542b-46a8-a5a3-df0e74854157",
+			"87e50a4d-87f8-4bbb-b716-6aedbfecbe63",
+			"cdd9fb62-32e9-4ae4-b0cb-60bca2911f09"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "1f42e7ca-dd1a-47ed-89fc-1fd0cd97e24b",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "16dcb3b6-6d7f-455d-b1ca-ec1594389032"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_U_The_Red_Hand",
+		"ID": "783ec95c-81bc-4dfa-a665-1a39ff3dd685",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 2448,
+			"DescriptionText": 3592,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "true",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_the-red-hand_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_the-red-hand_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus05.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"b420d957-6932-4b02-8e02-1393b07f390d",
+			"9bfcfb3b-0ec1-4437-b866-f9d4ecf75031",
+			"4efc2128-49bc-431e-9bc4-560cbc40e54b"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "835a4ce0-8dd8-493e-aadf-1e104dd53ed5",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_U_Three_Bells_Through",
+		"ID": "db230fa3-2483-478a-85cc-79e511dd3af5",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 2445,
+			"DescriptionText": 3553,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "true",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_three_bells_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_three_bells_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus04.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"4aa940c7-6a95-4be7-ad33-651afb6d5dde",
+			"dac3d1f1-235f-4424-9c9d-cb3f9abd91f6"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "f0226445-cab8-431a-b43c-a20fd1b0e588",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+  {
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Poor",
+		"ID": "f3c13b1e-cda7-4db2-8259-7a7a8b487762",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 1,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "true",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus01.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"befee0c7-f7f1-49e5-bcb8-6a4f5fd3f01a"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	}]
+}
