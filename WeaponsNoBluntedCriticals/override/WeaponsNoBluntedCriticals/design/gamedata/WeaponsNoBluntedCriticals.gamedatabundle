@@ -1,12 +1,39 @@
 {
 	"GameDataObjects": [{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arbalest",
+		"ID": "f4b5d8f4-8b66-4243-b9f6-1a626f9848fc",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 0,
+			"DescriptionText": 253,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "2b6fbc6c-0052-4e65-95c5-b3d32bf2669d",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 70,
+			"IconTextureSmall": "gui/icons/items/weapons/arbalest/arbalest_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arbalest/arbalest_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
 			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
 			"EquipmentType": "Arbalest",
 			"EquipmentSlot": "BothPrimaryAndSecondary",
 			"AppearancePiece": {
 				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arbalest/a_arbalest01.asset"
 			},
-			"ItemModsIDs": ["71dde434-9349-4996-a6fa-0874e5a83ab1"],
+			"ItemModsIDs": ["9f94abde-22f9-4991-bcb1-c5ab0ebb5111",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1"],
 			"OnEquipVisualEffects": [],
 			"RestrictedToClass": [],
 			"RestrictedToPlayer": "false",
@@ -1607,14 +1634,14 @@
 			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
 		}]
 	},
-  {
+	{
 		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
-		"DebugName": "Arquebus_Poor",
-		"ID": "f3c13b1e-cda7-4db2-8259-7a7a8b487762",
+		"DebugName": "Blunderbuss",
+		"ID": "4a42e444-2b48-43ee-8655-76fe36e89927",
 		"Components": [{
 			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-			"DisplayName": 1,
-			"DescriptionText": 254,
+			"DisplayName": 3,
+			"DescriptionText": 256,
 			"FilterType": "Weapons",
 			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
 			"IsQuestItem": "false",
@@ -1623,58 +1650,17 @@
 			"IsAdventuringItem": "false",
 			"CanSellForFullValue": "false",
 			"MaxStackSize": 1,
-			"NeverDropAsLoot": "true",
+			"NeverDropAsLoot": "false",
 			"CanBePickpocketed": "true",
 			"IsUnique": "false",
-			"Value": 1000,
-			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_s.png",
-			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_l.png",
+			"Value": 35,
+			"IconTextureSmall": "gui/icons/items/weapons/blunderbuss/blunderbuss_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/blunderbuss/blunderbuss_l.png",
 			"PencilSketchTexture": "",
 			"InspectOnUseButton": [],
 			"IsPlaceholder": "false"
 		},
 		{
-			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-			"EquipmentType": "Arquebus",
-			"EquipmentSlot": "BothPrimaryAndSecondary",
-			"AppearancePiece": {
-				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus01.asset"
-			},
-			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
-			"71dde434-9349-4996-a6fa-0874e5a83ab1",
-			"befee0c7-f7f1-49e5-bcb8-6a4f5fd3f01a"],
-			"OnEquipVisualEffects": [],
-			"RestrictedToClass": [],
-			"RestrictedToPlayer": "false",
-			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
-			"CannotUnequip": "false",
-			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
-			"ItemModel": "",
-			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
-			"PaperdollOverrideRenderer": "",
-			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-			"CannotSheathe": "false",
-			"PropVisualEffects": []
-		},
-		{
-			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
-			"Stance": "TwoHandedOpenGrip",
-			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
-			"StatusEffectsOnLaunchIDs": [],
-			"IsDisplayedWhenAlternate": "true",
-			"IsUniversalType": "false",
-			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
-			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
-			"ForceBackScabbard": "false",
-			"ScabbardAppearancePiece": {
-				"ModelVisualDataPath": ""
-			},
-			"ScabbardRendererPrefab": "",
-			"ScabbardModel": "",
-			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
-		}]
-	},
-  		{
 			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
 			"EquipmentType": "Blunderbuss",
 			"EquipmentSlot": "AnyWeapon",
@@ -2388,7 +2374,33 @@
 			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
 		}]
 	},
-  		{
+	{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Pistol",
+		"ID": "982e3d9d-ce45-4796-8c12-b094879dc770",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 19,
+			"DescriptionText": 276,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 35,
+			"IconTextureSmall": "gui/icons/items/weapons/pistol/pistol_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/pistol/pistol_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
 			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
 			"EquipmentType": "Pistol",
 			"EquipmentSlot": "AnyWeapon",
@@ -3171,6 +3183,73 @@
 	},
   {
 		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Arquebus_Poor",
+		"ID": "f3c13b1e-cda7-4db2-8259-7a7a8b487762",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 1,
+			"DescriptionText": 254,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "true",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 1000,
+			"IconTextureSmall": "gui/icons/items/weapons/arquebus/arquebus_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/arquebus/arquebus_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "Arquebus",
+			"EquipmentSlot": "BothPrimaryAndSecondary",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/arquebus/a_arquebus01.asset"
+			},
+			"ItemModsIDs": ["31b41cd8-d08b-42c8-8411-d08926804f06",
+			"71dde434-9349-4996-a6fa-0874e5a83ab1",
+			"befee0c7-f7f1-49e5-bcb8-6a4f5fd3f01a"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClass": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "2434e0d9-435c-45b1-b509-c5e90082c058",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "prefabs/itemrenderers/genericanimateditemrenderer.prefab",
+			"ItemModel": "",
+			"AnimationController": "art/animation/animationcontrollers/weapon/w_arquebus.controller",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		},
+		{
+			"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+			"Stance": "TwoHandedOpenGrip",
+			"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+			"StatusEffectsOnLaunchIDs": [],
+			"IsDisplayedWhenAlternate": "true",
+			"IsUniversalType": "false",
+			"AttackID": "6d67b650-6c61-4b7e-b4f1-03dea5d1dee6",
+			"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+			"ForceBackScabbard": "false",
+			"ScabbardAppearancePiece": {
+				"ModelVisualDataPath": ""
+			},
+			"ScabbardRendererPrefab": "",
+			"ScabbardModel": "",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+		}]
+	},
+  {
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
 		"DebugName": "Pistol_Poor",
 		"ID": "ada2dcb1-c2a2-4b25-8be8-fa4b80e6c6de",
 		"Components": [{
@@ -3235,6 +3314,32 @@
 		}]
 	},
   {
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Blunderbuss_Superb",
+		"ID": "95092614-c0b9-49a3-8e9d-ed6eafe1c750",
+		"Components": [{
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 2883,
+			"DescriptionText": 256,
+			"FilterType": "Weapons",
+			"InventoryAudioEventListID": "57518815-1aa8-49c2-8ee0-0d361b26fd66",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "false",
+			"Value": 35,
+			"IconTextureSmall": "gui/icons/items/weapons/blunderbuss/blunderbuss_exceptional_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/blunderbuss/blunderbuss_exceptional_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		},
+		{
 			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
 			"EquipmentType": "Blunderbuss",
 			"EquipmentSlot": "AnyWeapon",
